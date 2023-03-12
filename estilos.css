@@ -101,7 +101,7 @@ p {
   display: flex;
   justify-content: center;
 
-   background-color: #66d7d1;
+   background-color: rgba(0, 0, 0, 0%);
   font-size: 30px;
   padding-top: 0px;
   padding-bottom: 10px;
@@ -119,9 +119,9 @@ p {
   justify-content: center;
   padding-top: 30px;
   padding-bottom: 220px;
-  background-color: #f197cd;
+  background-color: rgba(83, 227, 90, 0%);
   border-radius: 50px;
-  border: black 3px solid opaque transparent;
+
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
 }
