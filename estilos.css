@@ -196,3 +196,9 @@ border-radius: 50px;
   filter:opacity(50%);
   
 }
+
+.seccion__foto {
+ border-radius: 50px;
+ border-bottom-left-radius: 150%;
+
+}
