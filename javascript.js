@@ -44,3 +44,8 @@ document.getElementById('boton3').onclick = function () {
 
 
 
+document.getElementById('botone').onclick = function () {
+
+
+    document.getElementById("contacto").innerHTML = "luis.escalada@hotmail.com";
+}
