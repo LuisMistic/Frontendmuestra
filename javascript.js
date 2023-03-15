@@ -1,9 +1,9 @@
 
 
-var boton = "SOBRE MI"
-var boton1 = "EXPERIENCIA"
-var boton2 = "EDUCACIÓN"
-var boton3 = "HABILIDADES"
+const boton = "SOBRE MI"
+const boton1 = "EXPERIENCIA"
+const boton2 = "EDUCACIÓN"
+const boton3 = "HABILIDADES"
 
 
 
@@ -44,8 +44,13 @@ document.getElementById('boton3').onclick = function () {
 
 
 
-document.getElementById('botone').onclick = function () {
 
 
-    document.getElementById("contacto").innerHTML = "luis.escalada@hotmail.com";
-}
+document.getElementById('botone').addEventListener("click", function(){
+    console.log("sadfasd")
+    document.getElementById("contacto").scrollIntoView({block:"end"});
+})
+
+
+
+
