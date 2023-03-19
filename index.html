@@ -8,16 +8,22 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
   <link rel="stylesheet" href="estilos.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="bower_components/aos/dist/aos.css" />
+
   <title>muestra</title>
 </head>
 
-<body>
+<body data-aos="zoom-out-down">
 
   <header class="row">
+    
 
     <div class="col-" id="botonera">
 
-      <li>
+      <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 
         <button class="btn btn-outline-success" type="submit" id="boton"> Sobre -mi-
         </button>
@@ -25,7 +31,9 @@
         <button class="btn btn-outline-success" id="boton1">Experiencia
         </button>
       </li>
-      <li>
+      <li data-aos="flip-left"
+     data-aos-easing="ease-out-cubic"
+     data-aos-duration="2000">
 
         <button class="btn btn-outline-success" type="submit" id="boton2">Educacion
         </button>
@@ -44,10 +52,10 @@
         <div class="col-7" id="content">
           <div class="row">
 
-            <h3 id="titulos"></h3>
+            <h3 id="titulos" ></h3>
 
 
-            <p id="sobremi">Te doy la bienvenida a mi pagina </p>
+            <p id="sobremi" data-aos="flip-down">Te doy la bienvenida a mi pagina </p>
 
 
 
@@ -55,16 +63,18 @@
         </div>
 
 
-        <div class="col 3" id="contenido">
+        <div class="col 3" id="contenido"  >
 
-          <picture class="seccion__foto">
+          <picture class="seccion__foto" data-aos="fade-right"
+     data-aos-offset="600"
+     data-aos-easing="ease-in-sine">
 
             <img src="./img/luis.png" alt="imagen de perfil no se ve" />
 
           </picture>
 
         </div>
-        <div class="col 2" id="text">
+        <div class="col 2" id="text" >
 
           Lus Sebastian
           Martinez Morinigo
@@ -77,17 +87,26 @@
         </div>
       </div>
 
-      <div class="row c">
+      <div class="row ">
         <div class="col 3">
           <br>
-          <button class="btn btn-outline-success" id="botone">contacto
-          </button>
-          <div style="height: 200vh;">
+         
+          <button class="btn btn-outline-success" id="botone" data-aos="fade-right">contacto
+          </button> 
+        </div>
+
+
+        
+          
+
+            <div id="contacto"></div>
+      
+          <!-- <div style="height: 200vh;"> -->
 
 
           </div>
-          <div id="contacto">jkjhmvbmbvnmbnvmbvnmbnvmbnmnmnnm.mn.m.mn.m.,nm,nm,mnv,nm,nm,vmn,nm,nm,nm,nv,nmv,nm,nm,nm
-          </div>
+       
+          
         </div>
 
       </div>
@@ -100,6 +119,11 @@
 
 
   <script src="javascript.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="bower_components/aos/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 
 </html>

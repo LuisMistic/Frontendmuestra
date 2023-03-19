@@ -42,14 +42,16 @@ document.getElementById('boton3').onclick = function () {
     document.getElementById("titulos").innerHTML = boton3;
 }
 
+document.getElementById('botone').onclick = function () {
+document.getElementById("contacto").innerHTML = "luis.escalada@hotmail.com";
+
+}
 
 
-
-
-document.getElementById('botone').addEventListener("click", function(){
-    console.log("sadfasd")
-    document.getElementById("contacto").scrollIntoView({block:"end"});
-})
+//* document.getElementById('botone').addEventListener("click", function(){
+ //*   console.log("sadfasd")
+ //*   document.getElementById("contacto").scrollIntoView({block:"end"});
+//*})
 
 
 

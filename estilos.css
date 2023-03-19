@@ -57,6 +57,7 @@ body {
 }
 
 #botonC{
+  display:inline;
   border-radius: 0px 0px 40px 15px;
   padding-top: 0px;
 
@@ -147,6 +148,7 @@ li {
   
   list-style: none;
   font-size: 13px;
+  
 }
 
 .card {
@@ -218,4 +220,16 @@ border-radius: 50px;
  border-radius: 50px;
  border-bottom-left-radius: 150%;
 
+}
+
+#botone {
+
+  background-color: #66d7d1 ;
+}
+#contacto {
+
+  color: #231414;
+  display: flex;
+  justify-content: left;
+  background-color: #66d7d1 ;
 }
